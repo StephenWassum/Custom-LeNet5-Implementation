@@ -12,8 +12,6 @@ using the MNIST dataset. The project includes:
 - A custom loss function and optimizer (MAP loss and Stochastic Diagonal Levenberg-Marquardt).
 - A second model modified to handle unseen, augmented MNIST data.
 
----
-
 ## How to Run
 
 1. Make sure `test1.py`, `test2.py`, and `data.py` are in the same directory.
@@ -31,16 +29,12 @@ using the MNIST dataset. The project includes:
      - Confusion matrices
      - Most confidently misclassified digits
 
----
-
 ## Model Files
 
 The Pretrained Models are included as follows:
 
 - Original LeNet5 (`LeNet5_1.pth`):  
 - Modified LeNet5 (`LeNet5_2.pth`):  
-
----
 
 ## Original LeNet5 functions
 
@@ -51,8 +45,6 @@ Key components:
 - `MAPLossFunction`: Custom loss from the paper.
 - `StochasticDiagonalLevenbergMarquardt`: Custom optimizer from Appendix C.
 - `train()`: Runs training, tracks and plots performance.
-
----
 
 ## Modified LeNet5 structure
 
